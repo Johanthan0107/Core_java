@@ -1,5 +1,5 @@
 /* Multidimensional Array:- it's data is stored in row And column based index(matrixform) */
-class AdditionArray
+class MultiplicationArray
 {
 	public static void main (String[] args)
 	{
