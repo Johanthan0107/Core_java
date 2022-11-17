@@ -1,12 +1,12 @@
 record Pen(String Brand, String Colour, float Prize){
 	Pen(){
-	this("Cello","Black",20f);}
+	this("Glory","Green",50f);}
 		public static void main(String[] args){
-			Pen p=new Pen("Cello","Black",20f);
-		    Pen p1=new Pen("Saino","Blue",25f);
-			Pen p2=new Pen("Meow","red",20f);
-			System.out.println(p);//Pen[Brand=Cello, Colour=Black, Prize=20.0]
-			System.out.println(p1);//Pen[Brand=Saino, Colour=Blue, Prize=25.0]
-			System.out.println(p2);//Pen[Brand=Meow, Colour=red, Prize=20.0]
+			Pen p=new Pen("Glory","Green",50f);
+		    Pen p1=new Pen("Faith","Blue",30f);
+			Pen p2=new Pen("Believe","red",20f);
+			System.out.println(p);//Pen[Brand=Glory, Colour=Green, Prize=50.0]
+			System.out.println(p1);//Pen[Brand=Faith, Colour=Blue, Prize=30.0]
+			System.out.println(p2);//Pen[Brand=Believe, Colour=red, Prize=20.0]
 		}
 	}
