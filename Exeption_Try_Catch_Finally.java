@@ -6,7 +6,7 @@ class Exeption
 		System.out.println("Program execution will be start");
 		
 		int x=9;
-		int y=1;
+		int y=0;
 		int results=0;
 		 
 		 //Try:- which one(results=x/y) is throws the exception so,will put the in try block.
